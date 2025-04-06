@@ -97,7 +97,12 @@ function mevzuat_listele_shortcode() {
              margin-top: auto;
              display: flex;         
              align-items: center;
+             font-weight: 600;
              }
+             
+            .mevzuat-listesi li a span:last-child {
+            margin-top: 10px;
+            }
              
              
     
