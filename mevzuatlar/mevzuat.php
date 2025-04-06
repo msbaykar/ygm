@@ -52,12 +52,21 @@ function mevzuat_listele_shortcode() {
     $mevzuat_query = new WP_Query($args);
 
     if ($mevzuat_query->have_posts()) {
-        echo '<ul class="mevzuat-listesi">';
+        $output = '<ul class="mevzuat-listesi">';
         while ($mevzuat_query->have_posts()) {
             $mevzuat_query->the_post();
-            echo '<li><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>';
+
+            $output .= '<li><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>';
         }
-        echo '</ul>';
+        $output .= '</ul>';
+        $output .= '<style>
+
+    
+</style>';
+        return $output;
+
+
+
         wp_reset_postdata();
     } else {
         echo 'Henüz mevzuat eklenmemiş.';
