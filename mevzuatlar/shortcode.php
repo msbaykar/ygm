@@ -1,5 +1,5 @@
 <?php
-add_shortcode('mevzuat_listele', 'mevzuat_son_uc_listele_shortcode');
+add_shortcode('mevzuat_tum_listele', 'mevzuat_son_uc_listele_shortcode');
 
 function mevzuat_son_uc_listele_shortcode() {
     ob_start();
