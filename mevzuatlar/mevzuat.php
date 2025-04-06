@@ -6,7 +6,9 @@
  * Author: Sen
  */
 
+include 'shortcode.php';
 add_action('init', 'register_mevzuatlar_cpt');
+
 
 function register_mevzuatlar_cpt() {
     $labels = array(
