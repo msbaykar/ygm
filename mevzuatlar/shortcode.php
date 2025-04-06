@@ -60,14 +60,10 @@ function mevzuat_son_uc_listele_shortcode() {
              align-items: center;
              font-weight: 600;
              }
-              .mevzuat-listesi li a {
-             color:#0A47CA;
-             text-decoration: none;
-             margin-top: auto;
-             display: flex;         
-             align-items: center;
-             }
              
+            .mevzuat-listesi li a span:last-child {
+            margin-top: 10px;
+            }
              
              
     
