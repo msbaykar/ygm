@@ -2,8 +2,7 @@ const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
 
 const config = {
-    user: "modhost",
-    password: "Kisamesaj44*?", // veya accessToken
+   
     host: "butiqhosting.com",
     port: 21,
     localRoot: __dirname,
