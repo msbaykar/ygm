@@ -5,12 +5,12 @@ const config = {
     user: "modhost",
     password: "Kisamesaj44*?", // veya accessToken
     host: "butiqhosting.com",
-    port: 21, // genelde 21 olur
+    port: 21,
     localRoot: __dirname,
-    remoteRoot: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/",
-    include: ["*", "**/*"], // tüm dosyalar
+    remoteRoot: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/mevzuatlar",
+    include: ["*", "**/*"],
     exclude: ["node_modules/**", ".git/**", ".gitignore", "deploy.js", "package*"],
-    deleteRemote: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/mevzuatlar/", // uzaktaki dosyaları silmesin
+    deleteRemote: false
 };
 
 ftpDeploy
