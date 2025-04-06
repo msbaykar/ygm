@@ -70,13 +70,22 @@ function mevzuat_listele_shortcode() {
          .mevzuat-listesi {
             display: flex;
             list-style-type: none;
+            gap:24px;
             }
          .mevzuat-listesi li {
             border-radius: 16px;
             background: #F3F6FC;
             padding: 16px;
-            
+            max-width: 410px;
+            height: 160px;
+            width: 100%;
+           
             }
+             .mevzuat-listesi li .mevzuat-title {
+             font-size: 20px;
+             font-weight: 700;
+             line-height: 120%;
+             }
     
 </style>';
         return $output;
