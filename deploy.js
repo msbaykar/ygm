@@ -10,7 +10,7 @@ const config = {
     remoteRoot: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/",
     include: ["*", "**/*"], // tüm dosyalar
     exclude: ["node_modules/**", ".git/**", ".gitignore", "deploy.js", "package*"],
-    deleteRemote: true, // uzaktaki dosyaları silmesin
+    deleteRemote: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/mevzuatlar/", // uzaktaki dosyaları silmesin
 };
 
 ftpDeploy
