@@ -66,7 +66,12 @@ function mevzuat_son_uc_listele_shortcode() {
             }
              
              
-    
+    @media (min-width: 320px) and (max-width: 480px) {
+  
+  .mevzuat-listesi {
+	flex-direction: column;
+}
+}
 </style>';
         return $output;
 
