@@ -16,3 +16,4 @@ ftpDeploy
     .deploy(config)
     .then(res => console.log("✅ Deploy tamamlandı!", res))
     .catch(err => console.error("❌ Deploy hatası:", err));
+// çalıştırmak için  node deploy.js yaz

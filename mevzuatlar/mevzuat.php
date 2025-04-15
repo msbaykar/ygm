@@ -105,8 +105,14 @@ function mevzuat_listele_shortcode() {
             .mevzuat-listesi li a span:last-child {
             margin-top: 10px;
             }
+            
              
-             
+            @media (min-width: 320px) and (max-width: 480px) {
+            
+                .mevzuat-listesi {
+                flex-direction: column;
+                }
+            }  
     
 </style>';
         return $output;
