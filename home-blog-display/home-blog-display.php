@@ -30,18 +30,16 @@ function ozel_blog_listesi_shortcode() {
             color: inherit;
             display: flex;
             flex-direction: column;
-            border: 1px solid #eee;
-            padding: 15px;
             transition: all 0.3s ease;
         }
 
         .ozel-blog-grid .item:hover {
-            background: #f9f9f9;
+            background: #fffdfd;
         }
 
         .ozel-blog-grid .item img {
             width: 100%;
-            height: auto;
+            height: 200px;
             margin-bottom: 10px;
         }
 
