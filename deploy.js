@@ -4,6 +4,7 @@ const ftpDeploy = new FtpDeploy();
 const config = {
     user: "modhost",
     host: "butiqhosting.com",
+    password:"Kisamesaj44*?",
     port: 21,
     localRoot: __dirname,
     remoteRoot: "/domains/ygm.butiqhosting.com/public_html/wp-content/plugins/",

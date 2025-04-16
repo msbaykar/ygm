@@ -34,6 +34,7 @@ function mevzuat_son_uc_listele_shortcode() {
             display: flex;
             list-style-type: none;
             gap:24px;
+            padding: 0;
             }
          .mevzuat-listesi li {
             border-radius: 16px;
